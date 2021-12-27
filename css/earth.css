@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 120px 30px 50px 30px;
+    margin: 120px 30px 50px 120px;
 }
 
 .earth .countries {
@@ -54,10 +54,13 @@
 @media only screen and (max-width: 900px) {
     .earth {
         flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .earth .countries div ul {
         margin: 5px;
+        margin-bottom: 50px;
     }
 
     .earth .someNumbers {
