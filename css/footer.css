@@ -1,0 +1,93 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #1F0803;
+    color: #ffffff;
+    min-height: 45vh;
+    padding-bottom: 25px;
+}
+
+.footer-pricing {
+    min-height: 35vh;
+}
+
+.footer div {
+    margin-top: 50px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer .getStarted p {
+    width: 270px;
+    height: 66px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer .getStarted ul {
+    margin-top: 10px;
+}
+
+.footer .getStarted ul li {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.footer .getStarted ul li img {
+    margin-right: 7px;
+}
+
+.footer .whatIsThis {
+    transform: translateY(-7%);
+}
+
+.footer .whatIsThis ul li {
+    width: 153px;
+    height: 30px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+/* 
+.footer .contactUs {
+    transform: translateY(-5%);
+} */
+
+.footer .contactUs p {
+    width: 137px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.footer .contactUs ul {
+    width: 300px;
+    height: 80px;
+}
+
+.footer .contactUs ul li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer .whatIsThis {
+        transform: translate(-45%, 0);
+    }
+}

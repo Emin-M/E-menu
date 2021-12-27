@@ -1,0 +1,67 @@
+.earth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 30px 50px 30px;
+}
+
+.earth .countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.earth .countries div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.earth img {
+    width: 60px;
+}
+
+.earth .countries div ul {
+    list-style: none;
+    margin: 20px;
+}
+
+.earth .countries div ul li:nth-child(1) {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.earth .countries div ul li:nth-child(2) {
+    font-weight: 300;
+}
+
+.earth .someNumbers {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+.earth .someNumbers p {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 900px) {
+    .earth {
+        flex-direction: column;
+    }
+
+    .earth .countries div ul {
+        margin: 5px;
+    }
+
+    .earth .someNumbers {
+        justify-content: center;
+        width: 80%;
+    }
+}
